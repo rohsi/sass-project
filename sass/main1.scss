@@ -37,6 +37,7 @@
   color: white;
   animation-name: slideInLeft;
   animation-duration: 5s;
+  
   margin-bottom: 10px;
   text-transform: uppercase;
 }
@@ -122,8 +123,8 @@
 }
 
 .middle  {
-  text-align: center;
-  width: 50%;
+  text-align: right;
+  width: 70%;
   margin: 0 auto;
   background-image: linear-gradient(to right, rgba(126, 213, 111, 0.8), rgba(40, 180, 131, 0.8));
   -webkit-text-fill-color: transparent;
@@ -230,7 +231,7 @@
   margin-left: 20px;
   margin-right: 20px;
   margin-top: -14vh;
-
+  clip-path: polygon(0 11%, 100% 0%, 100% 88%, 0% 100%);
 
 }
 
@@ -255,4 +256,52 @@
 }
 .pamper{
   padding: 15px;
+}
+.most{
+  background-color: #f7f7f7;
+  height: 100vh;
+
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -12vh;
+
+}
+/*.blue,.blue1,.blue2{
+  background-image: url("../img/nat5.jpg");
+  padding: 50px;
+
+
+
+}
+.space{
+  padding: 90px;
+  text-align: center;
+
+}
+.d{
+  font-size:30px;
+  background-image: linear-gradient(to right, rgba(126, 213, 111, 0.8), rgba(40, 180, 131, 0.8));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+}
+.le{
+  list-style-type: none;
+}
+
+.pricing-photo1{
+  height: 200px;
+  background-size:cover;
+  background-image: url("../img/nat5.jpg");
+}
+.pricing-photo1 h2{
+  padding: 30px;
+}*/
+.newq{
+  text-align: center;
+  padding: 100px;
+}
+.differenttours{
+  background-image: url("../img/nat5.jpg");
+  background-size: cover;
 }

@@ -259,11 +259,12 @@
 }
 .most{
   background-color: #f7f7f7;
-  height: 100vh;
+  height: 190vh;
 
   margin-left: 20px;
   margin-right: 20px;
   margin-top: -12vh;
+
 
 }
 /*.blue,.blue1,.blue2{
@@ -300,8 +301,82 @@
 .newq{
   text-align: center;
   padding: 100px;
+
+
+
 }
+.grou{
+  margin-left: 83px!important;
+  margin-right: 10px!important;
+}
+
 .differenttours{
-  background-image: url("../img/nat5.jpg");
   background-size: cover;
+  height: 260px;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  background-blend-mode: screen;
+  background-image:linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 131, 0.8)) ,url("../img/nat5.jpg");
+  width: 80%;
+
+}
+.differenttours h3{
+  text-align: end;
+  padding-top: 190px;
+
+}
+.stay{
+  background-color: white;
+  padding: 40px;
+  margin-top: -6vh;
+  width: 80%;
+  clip-path: polygon(0 9%, 100% 0%, 100% 87%, 0% 100%);
+
+}
+.stay p{
+  padding: 20px;
+  padding-left: 25px;
+  text-align: center;
+  border-bottom:1px solid aliceblue;
+}
+.pricing{
+  padding: 20px;
+  background-image:linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 131, 0.8))  ;
+  margin-top: -10vh;
+  width: 80%;
+
+}
+.pricing p{
+  padding: 20px;
+  text-align: center;
+
+
+}
+.pricing a{
+  border-radius: 200px;
+  background-color: white;
+  text-decoration: none;
+  padding: 10px;
+  position: relative;
+  left: 70px;
+
+}
+.we{
+  font-size: 150%;
+}
+
+.to{
+  background-color: #f7f7f7;
+  height: 30vh;
+
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.make{
+  border-radius: 200px;
+  background-color: #55c57a;
+  padding: 20px;
+  font-size: 150%;
+  text-decoration: none;
+  position: relative;
+  left: 38%;
 }

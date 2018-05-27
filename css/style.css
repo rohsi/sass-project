@@ -490,10 +490,6 @@
   text-align: center;
   padding: 100px; }
 
-.grou {
-  margin-left: 83px !important;
-  margin-right: 10px !important; }
-
 .differenttours {
   background-size: cover;
   height: 260px;
@@ -554,3 +550,170 @@
   text-decoration: none;
   position: relative;
   left: 38%; }
+
+.fullscreen-bg {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  right: 0;
+  bottom: 0; }
+
+.fullscreen-bg__video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: relative;
+  opacity: .3; }
+
+.master {
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative; }
+
+.asterik {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.leftmover {
+  width: 80%;
+  text-align: right;
+  text-transform: uppercase;
+  padding-top: 10%;
+  font-size: 190%;
+  background-image: linear-gradient(to right, rgba(126, 213, 111, 0.8), rgba(40, 180, 131, 0.8));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; }
+
+.imagechange img {
+  margin-left: 15%;
+  margin-top: 10%;
+  float: left; }
+
+.param, .param {
+  margin-left: 10%;
+  padding-top: 3%;
+  font-size: small;
+  float: left; }
+
+.param h2 {
+  margin-bottom: 2%;
+  font-size: medium; }
+
+.opaque {
+  opacity: 1;
+  -webkit-clip-path: circle(35% at 50% 50%);
+  clip-path: circle(30% at 50% 50%);
+  height: 180px; }
+
+.ew a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 5%; }
+
+.card:hover .imagechange {
+  opacity: 0.3; }
+
+.car:hover .imagechange {
+  opacity: 0.3; }
+
+.styler {
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+  height: 120vh;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -0.4% !important;
+  position: relative; }
+
+.tyler {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-1-large.jpg);
+  height: 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80%;
+  margin-right: 10%; }
+
+.form__group:not(:last-child) {
+  margin-bottom: 2rem; }
+
+.form__input {
+  font-size: medium;
+  font-family: inherit;
+  color: inherit;
+  padding: 2%;
+  border-radius: 2px;
+  background-color: rbga(#fff, 0.5);
+  border: none;
+  border-bottom: 3px solid transparent;
+  width: 70%;
+  display: block;
+  margin-left: 4%; }
+
+.se h2 {
+  margin: 3%;
+  text-align: center;
+  font-size: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+.form__radio-button {
+  margin: 1%;
+  margin-top: 3%; }
+
+#small {
+  margin-left: 3%;
+  margin-bottom: 5%;
+  width: 20%; }
+
+#large {
+  margin-left: 3%;
+  margin-bottom: 5%;
+  width: 20%; }
+
+.yt {
+  margin-left: 15%;
+  border-radius: 200px;
+  background-color: #55c57a;
+  text-decoration: none;
+  padding: 2%; }
+
+.card-container {
+  cursor: pointer;
+  height: 150vh;
+  perspective: 600;
+  position: relative; }
+
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%; }
+
+.card:hover {
+  transform: rotateY(180deg); }
+
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%; }
+
+.card .back {
+  background: #eaeaed;
+  color: #0087cc;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg); }

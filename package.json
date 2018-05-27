@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main1.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main1.scss css/style.css -w",
+    "sign:sass": "node-sass sass/sign.scss css/sign.css -w"
   },
   "author": "",
   "license": "ISC",
